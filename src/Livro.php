@@ -2,9 +2,9 @@
 
 class Livro
 {
-    public string $titulo;
-    public string $autor;
-    public int $paginas;
+    private string $titulo;
+    private string $autor;
+    private int $paginas;
 
     public function setTitulo(string $titulo): void
     {
