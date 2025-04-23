@@ -6,6 +6,7 @@ class Tecnico extends Livro {
         string $titulo, string $autor, Formato $formato
     )
     {
+        parent::__construct($titulo, $autor);
         $this->setFormato($formato);
     }
 
