@@ -21,7 +21,6 @@ $livro = new Livro("Divinos Rivais", "Rebeca Ross", 464);
         <ul>
             <li><b>Título: </b><?=$livro->getTitulo()?></li>
             <li><b>Autor(a): </b><?=$livro->getAutor()?></li>
-            <li><b>Páginas: </b><?=$livro->getPaginas()?></li>
         </ul>
     
     <h2>Testes de acesso aos recursos da classe através do objeto</h2>
